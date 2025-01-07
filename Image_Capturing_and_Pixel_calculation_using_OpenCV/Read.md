@@ -1,14 +1,12 @@
 # **How It Works:**
-Open the Webcam: Uses ```python
-cv2.VideoCapture(0)
-``` to access the default webcam.
+Open the Webcam: Uses cv2.VideoCapture(0) to access the default webcam.
 Display Webcam Feed: Displays the video feed in a window.
-Capture Image: Waits for the user to press the *'s'* key to capture an image.
+Capture Image: Waits for the user to press the 's' key to capture an image.
 Calculate Pixels: Computes the total number of pixels as the product of the image width and height.
 Save Image: Saves the captured image in both JPG and PNG formats using cv2.imwrite().
 Exit: Pressing *'q'* allows the user to exit the program without saving.
 
-# **Theoritical understanding**
+# Theoritical understanding
 1. Digital Images - Raster Images:
 The captured image from the webcam is a raster image (a grid of pixels), and operations like capturing, saving, and printing pixel counts directly involve raster image processing.
 2. Color and Pixel-Level Operations:
